@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #f4f1ee;
+    text-align: center;
+    background-color:peru;
+}
+
+header {
+    background: #6f4e37;
+    color: white;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.home {
+    padding: 50px;
+}
+
+button {
+    background: #6f4e37;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    background: white;
+    margin: 10px;
+    padding: 15px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.gallery img {
+    width: 100px;
+    margin: 5px;
+}
+
+/* Mobile Friendly */
+@media(max-width:600px){
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+}
